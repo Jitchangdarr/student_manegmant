@@ -1,0 +1,66 @@
+body {
+    background-image: url('jit.avif');
+}
+
+.parent {
+    background-color: blueviolet;
+    height: 33rem;
+    max-width: 40rem;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 10;
+    opacity: 0.9;
+    display: flex;
+    /* Flexbox for layout */
+    flex-direction: column;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+}
+
+.text,
+.someInput,
+.tt,
+.hono {
+    margin: 1rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* Stack label and input vertically */
+    align-items: center;
+    justify-content: center;
+}
+
+.someInput input,
+.tt input {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+.hono {
+    display: flex;
+    align-items: center;
+    /* Align checkbox and label in the same row */
+    gap: 0.5rem;
+    /* Add spacing between checkbox and label */
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
