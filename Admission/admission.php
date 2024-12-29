@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 		$uploadDirectory = "uploads/";
 
 		// Create upload directory if not exists
-		if (!is_dir($uploadDirectory)) {
+		if (!is_dir($uploadDirectory)) {}
 			mkdir(
 				$uploadDirectory,
 				0777,
